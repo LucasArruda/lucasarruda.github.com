@@ -55,7 +55,8 @@
 		background: #fff;
 		font: 14px/21px "Myriad Pro", "Ubuntu", "Segoe UI", "HelveticaNeue", "Droid Sans", Arial, sans-serif; /*15px/22.5px "Computer Modern", serif;*//*"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		color: #444;
-		-webkit-font-smoothing: auto;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
     }
 
 
