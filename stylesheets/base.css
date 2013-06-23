@@ -53,9 +53,10 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "Myriad Pro", "Ubuntu", "Segoe UI", "HelveticaNeue", "Droid Sans", Arial, sans-serif; /*15px/22.5px "Computer Modern", serif;*//*"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		color: #444;
+		font: 16px/24px "Georgia", "Times New Roman", Times, serif; /*15px/22.5px "Computer Modern", serif;*//*"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 		-webkit-font-smoothing: antialiased;
+		margin-top: 40px;
 		text-rendering: optimizeLegibility;
     }
 
@@ -64,7 +65,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		/*font-family: "Georgia", "Times New Roman", serif;*/
+		font-family: "Myriad Pro", "Ubuntu", "Segoe UI", "HelveticaNeue", "Droid Sans", Arial, sans-serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}

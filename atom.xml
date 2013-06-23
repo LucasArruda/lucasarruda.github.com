@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Lucas Arruda]]></title>
-  <link href="http://LucasArruda.github.com/atom.xml" rel="self"/>
+  <!--<link href="http://LucasArruda.github.com/atom.xml" rel="self"/>-->
   <link href="http://LucasArruda.github.com/"/>
-  <updated>2012-04-09T23:02:07-03:00</updated>
+  <updated>2013-06-23T19:55:00-03:00</updated>
   <id>http://LucasArruda.github.com/</id>
   <author>
     <name><![CDATA[Lucas Arruda]]></name>
     
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="http://lucasarruda.com/">Luucas Arruda</generator>
 
   
 </feed>
