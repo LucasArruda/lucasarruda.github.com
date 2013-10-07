@@ -1,3 +1,2 @@
-h1. My blog's data
+h1. "My personal website":http://lucasarruda.com
 
-"Lucas Arruda":http://lucasarruda.com
