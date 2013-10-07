@@ -1,0 +1,381 @@
+body {
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.5;
+    color: #777;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+}
+
+
+/* Add transition to containers so they can push in and out */
+#layout {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#layout .content,
+#layout .pure-g-r,
+#layout .pure-g-r [class *= "pure-u"],
+#layout .pure-g,
+#layout .pure-g [class *= "pure-u"],
+#layout h1,
+#layout h2,
+#layout h3,
+#layout h4,
+#layout h5,
+#layout h6 {
+    font-family: inherit;
+}
+
+
+/* --------------------------
+ * Element Styles
+ * --------------------------
+*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1.125em;
+}
+
+a {
+    color: #3b8bba; /* block-background-text-normal */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #265778; /* block-normal-text-normal */
+}
+
+dt {
+    font-weight: bold;
+}
+dd {
+    margin: 0 0 10px 0;
+}
+
+#layout ul {
+    padding: 0;
+}
+
+/* --------------------------
+ * Layout Styles
+ * --------------------------
+*/
+
+#layout {
+    left: 0;
+}
+
+
+/* Apply the .box class on the immediate parent of any grid element (pure-u-*) to apply some padding. */
+.l-box {
+    padding: 1.3em;
+}
+
+.l-vbox {
+    padding: 1.3em 0;
+}
+
+.l-hbox {
+    padding: 0 1.3em;
+}
+
+.l-centered {
+    text-align: center;
+}
+
+.offset-1-5 {
+    margin-left: 10%;
+}
+
+
+/* --------------------------
+ * Header Module Styles
+ * --------------------------
+*/
+.header {
+     min-height: 80px;
+     margin: 0;
+     color: #333;
+     padding: 1em 2em;
+     text-align: center;
+     border-bottom: 1px solid #eee;
+     background: #fff;
+ }
+    .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+    }
+     .header h2 {
+        font-weight: 300;
+        margin: 0;
+        color: #ccc;
+    }
+
+aside {
+    background: #1f8dd6; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+}
+    aside a, aside a:visited {
+        color: rgb(169, 226, 255);
+    }
+
+
+/* --------------------------
+ * Content Module Styles
+ * --------------------------
+*/
+
+/* The content div is placed as a wrapper around all the docs */
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.content p {
+    line-height: 1.6em;
+    font-size: 1.125em;
+}
+
+.content .content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+    position: relative;
+}
+
+.content .content-spaced {
+    line-height: 1.8em;
+}
+
+/* A code snippet that has been syntax highlighted */
+.content .snippet {
+    margin: 1.3em 0 1em;
+    padding: 1.3em;
+}
+
+.content .content-quote {
+    font-family: "Georgia", serif;
+    color: #666;
+    font-style: italic;
+    line-height: 1.8em;
+    border-left: 5px solid #ddd;
+    padding-left: 1.5em;
+}
+
+/* ---------------------
+ * Smaller Module Styles
+ * ---------------------
+*/
+
+/* example code blocks */
+.example-snippet {
+    margin: 2em 0;
+    font-size: 85%;
+}
+
+/* green call to action button class */
+.notice {
+    background-color: #61B842;
+    color: white;
+}
+
+.pure-button {
+    font-family: inherit;
+}
+a.pure-button-primary {
+    color: white;
+}
+
+.muted {
+    color: #ccc;
+}
+
+/* --------------------------
+ * Responsive Styles
+ * --------------------------
+*/
+
+@media (max-width: 870px) {
+
+    /* Navigation Push Styles */
+    #layout {
+        position: relative;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header,
+    .content {
+        font-size: 87.5%;
+    }
+
+    .header,
+    .content {
+        padding-left: 1.1429em;
+        padding-right: 1.1429em;
+    }
+
+    /* normalize paddings on small screens*/
+    .l-hbox {
+        padding: 1.3em;
+    }
+
+    .offset-1-5 {
+        margin-left: 0;
+    }
+
+    #layout ul {
+        padding: 0 0 0 20px;
+    }
+}
+
+.layout-item {
+    margin: 1.3em 0;
+    padding: 1.3em 0;
+    border-top: 1px solid #eee;
+}
+.layout-item img {
+    height: auto;
+}
+.layout-item-screenshot .l-hbox {
+    padding-left: 0;
+}
+.layout-item-content .l-hbox {
+    padding-right: 0;
+}
+.layout-item-head {
+    margin-top: 0; /* so that the .layout-item-head lines up with the image */
+}
+.layout-item-modules {
+    padding: 0;
+}
+.layout-item-module {
+    margin-right: 0.5714em;
+    font-size: 0.875em;
+}
+.layout-item-module-base a {
+    border-left: 3px solid rgb(14, 144, 210);
+}
+.layout-item-module-grids a {
+    border-left: 3px solid rgb(128, 88, 165);
+}
+.layout-item-module-forms a {
+    border-left: 3px solid rgb(94, 185, 94);
+}
+.layout-item-module-buttons a {
+    border-left: 3px solid rgb(221, 81, 76);
+}
+.layout-item-module-tables a {
+    border-left: 3px solid rgb(243, 123, 29);
+}
+.layout-item-module-menus a {
+    border-left: 3px solid rgb(250, 210, 50);
+}
+.layout-item-module a:link,
+.layout-item-module a:visited {
+    text-transform: capitalize;
+    color: rgb(75, 75, 75);
+    padding: 0 0.5714em;
+    line-height: 1.75;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .layout-item-screenshot .l-hbox {
+        padding-right: 0;
+    }
+    .layout-item-content .l-hbox {
+        padding-left: 0;
+    }
+}
+
+/**
+ * Baby Blue theme for RainbowJS
+ *
+ * @author tilomitra
+ */
+/*
+pre {
+    word-wrap: break-word;
+    padding: 6px 10;
+    line-height: 1.3em;
+    margin-bottom: 20;
+    border: 1px solid #eee;
+}
+
+code {
+    border: none;
+    margin: 0 2px;
+    font-size: 0.8em;
+    padding: 0.4em 0.6em;
+    white-space: nowrap;
+}
+
+pre code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.95em;
+    white-space: pre-wrap;
+}
+
+pre, code {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    color: #333;
+    background: rgb(250, 250, 250);
+}
+
+pre .comment {
+    color: #999;
+}
+
+pre .tag, pre .tag-name, pre .support.tag-name {
+    color: rgb(85, 85, 85);
+}
+
+pre .keyword, pre .css-property, pre .vendor-prefix, pre .sass, pre .class, pre .id, pre .css-value, pre .entity.function, pre .storage.function {
+    font-weight: bold;
+}
+
+pre .css-property, pre .css-value, pre .vendor-prefix, pre .support.namespace {
+    color: #333;
+}
+
+pre .constant.numeric, pre .keyword.unit, pre .hex-color {
+    font-weight: normal;
+    color: #099;
+}
+
+pre .attribute, pre .variable, pre .support {
+    color:  #757575;
+}
+
+pre .string, pre .support.value  {
+    font-weight: normal;
+    color: #3b8bba; 
+}
+*/
+
+/* Computer Modern fonts.
+ *
+ */
