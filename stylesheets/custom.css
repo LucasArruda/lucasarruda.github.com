@@ -106,24 +106,25 @@ dd {
  * --------------------------
 */
 .header {
-     min-height: 80px;
-     margin: 0;
-     color: #333;
-     padding: 1em 2em;
-     text-align: center;
-     border-bottom: 1px solid #eee;
-     background: #fff;
- }
+    min-height: 80px;
+    margin: 0;
+    color: #333;
+    padding: 1em 2em;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
     .header h1 {
         margin: 0.2em 0;
         font-size: 3em;
         font-weight: 300;
-        -moz-font-feature-settings: 'smcp';
-        -webkit-font-feature-settings: 'smcp';
-        -ms-font-feature-settings: 'smcp';
-        font-feature-settings: 'smcp'
     }
-     .header h2 {
+
+    .header h1 span {
+        color: #ccc;
+    }
+
+    .header h2 {
         font-weight: 300;
         margin: 0;
         color: #ccc;
