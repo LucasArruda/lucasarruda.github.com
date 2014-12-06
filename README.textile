@@ -1,2 +1,2 @@
-h1. "My personal website":http://lucasarruda.com
+h2. This is the source code of my personal website "lucasarruda.com":http://lucasarruda.com
 
