@@ -127,7 +127,7 @@ li {
 }
 
 .header h1 span {
-    color: #ccc;
+    font-weight: 100;
 }
 
 .header h2 {
