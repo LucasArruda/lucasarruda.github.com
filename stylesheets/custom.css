@@ -8,7 +8,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 }
 
 p {
-    font: 1.1em/1.6em serif;
+    font: 1.05em/1.5em Georgia, serif;
 }
 
 /* Add transition to containers so they can push in and out */
