@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/lucasarruda
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lucasarruda.com
+  * I am lucasarruda (https://keybase.io/lucasarruda) on keybase.
+  * I have a public key with fingerprint F895 D87F A05A 3939 8E1D  A9BF E6A0 E155 A547 ACD7
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f895d87fa05a39398e1da9bfe6a0e155a547acd7",
+            "host": "keybase.io",
+            "key_id": "e6a0e155a547acd7",
+            "kid": "010196889fe3a50f158b7bf5473f7306ef462365ef5fc10682cae8bc32ea4d7fbe110a",
+            "uid": "fdeb868ebda12829e316ebec60e21f19",
+            "username": "lucasarruda"
+        },
+        "service": {
+            "hostname": "lucasarruda.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1425074147,
+    "expire_in": 157680000,
+    "prev": "be5a57bf91d54f1b4feb6b3c2d537734a13b5777e9e5d4f098584b96f5ec450b",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM3AnicbZJtUFRVGIB3QWzaisFJyBgLvVMEssC9e783wWZKkBRhRFHTYTv33nOW
+K7hLdz9APqYvIcPUCcnSLLAsYEKqH220Ns4uSCCWhIXAhFZggFAIKLRKDN3L1K86
+f86c933e55z3nXP+gWCdQT9c++u2j1Ibe/UX/aku3dbJkaESTLBL+zBzCZYHFzck
+26xQKVBkmxMzY4jjaYljEcBpQPIkz0FCAryAIANwSNA0oCkWiBKLGbFcu0OrUDUC
+cMAE2a7G1INFltTo//B5iwmcwAme4TgeQRLQOCJoTmAFpGIkYkmcgYhiTCRDQ0Qj
+kcAZziQCyAkiaYKAklgkQILAgapzLeqQBAWO4aAgAcLEmXhIEgwUoMjg0EQggtdA
+B1RsYC9U6XyXCBxAUVwSwMqMmJpwyyLUpqA1818oQbTvVQ0Fit1pF+35ajLX6Sxw
+mLVi574CjS6EguUfj0WQbZI6TbXCDRWHbLdhZkIlRaesiQnKROMsRVCsEYNFBbIC
+LbJG0CzD4erS7oFuVSlAdWzqTHhCoilECBSCAiOQokmiSZYlKUCQAs2yLOQhLVEI
+5zmaowSeQTQUKRoXMK2zF2x2zEyqzwRWVemQrTbgdCkQK2vx716i0xt0S0OCtP+g
+M9wb9u8vqWLDdB7gv2bxzXhdcTUPlmXkZOStzHijbsOq2NH1HRXLzlSVBo+2r951
+IWYXdSn6mLcz4drokOicicn562r+PZ0PE12vWDeETyaX+5Ubc9XrWyIiQqv15QPP
+NoU13z9edbP+aEvD9Nfl/mCmftbwRcRnceNruNO/u0d62ssXcqfOWork4StXBxLX
+9bVW1m4vPJVRVg9Mmz9ccmULNmcxWrPcu590Jl7vS4uue7/4VmZLay3WwH5cMp60
+6aA+ISYm1nM4npn1uWbvfPUIb82Om+qaWkhM8xUr06WGlX/Ot40ePTszZg6LumxK
+yddbzgV9MJGU2Nxp+K7uvdC1ByaaG55agd+5nTf887vPH1r3YnjNhfTI+PkdpbXB
+x7PormNTK0qSXGd6vF2HBwfbxMnpPmrN94UVrPBjWmdrpG5Zf/vGL9FFEBjcn5UZ
+8tbLNe6oQOU3jx08b0437ng0xUO7il7tn7l9pH4osLP87p7qkPs+XXXyBH7k+g9r
+X386yDdh6fW/2VFc2Vh9KtPRljzQuifdePoXb/KhQJTvxt3QsbT4LctTzXTh6p5G
+OXB5qpcqDOQsRa5tT2S+FH7AO9I09w7bbfh8Z9NPsX2X/ojO2fTJ4EZy/8nnUvrH
+fgvUnuiYnW6w5t8aNXueeWh7t3SzJ9ve/u3b3b7+oq0L2ZuLjccjvaji3GvLPfNR
+j1cPhvwNooq+yQ==
+=dj06
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lucasarruda
+
+==================================================================
