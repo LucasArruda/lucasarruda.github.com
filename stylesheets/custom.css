@@ -4,11 +4,11 @@ body {
 }
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-    font-family: Roboto, 'Droid Sans', 'Helvetica Neue', 'Liberation Sans', 'Nimbus Sans L', FreeSans, sans-serif;
+    font-family: 'San Francisco Text', Roboto, 'Droid Sans', 'Helvetica Neue', 'Liberation Sans', 'Nimbus Sans L', FreeSans, sans-serif;
 }
 
 p {
-    font: 1.05em/1.5em Georgia, serif;
+    line-height: 1.5em;
 }
 
 /* Add transition to containers so they can push in and out */
@@ -18,6 +18,10 @@ p {
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+}
+
+#layout .header {
+  font-family: 'San Francisco Display', Roboto, 'Droid Sans', 'Helvetica Neue', 'Liberation Sans', 'Nimbus Sans L', FreeSans, sans-serif;
 }
 
 /*#layout .content,
@@ -140,7 +144,7 @@ li {
 
 /*
 aside {
-    background: #1f8dd6; 
+    background: #1f8dd6;
     padding: 0.3em 1em;
     border-radius: 3px;
     color: #fff;
@@ -271,7 +275,7 @@ a.pure-button-primary {
     padding-right: 0;
 }
 .layout-item-head {
-    margin-top: 0; 
+    margin-top: 0;
 }
 .layout-item-modules {
     padding: 0;
@@ -378,7 +382,7 @@ pre .attribute, pre .variable, pre .support {
 
 pre .string, pre .support.value  {
     font-weight: normal;
-    color: #3b8bba; 
+    color: #3b8bba;
 }
 */
 
