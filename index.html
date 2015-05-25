@@ -20,7 +20,129 @@
   ================================================== -->
 	<link href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css" rel="stylesheet">
 	<link href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css" rel="stylesheet">
-	<link href="stylesheets/custom.css" rel="stylesheet">
+
+	<style>
+	body {
+			color: #333;
+			margin: 0;
+	}
+
+	html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+			font-family: 'San Francisco Text', Roboto, 'Droid Sans', 'Helvetica Neue', 'Liberation Sans', 'Nimbus Sans L', FreeSans, sans-serif;
+	}
+
+	p {
+			line-height: 1.5em;
+	}
+
+	#layout {
+			-webkit-transition: all 0.2s ease-out;
+			-moz-transition: all 0.2s ease-out;
+			-ms-transition: all 0.2s ease-out;
+			-o-transition: all 0.2s ease-out;
+			transition: all 0.2s ease-out;
+	}
+
+	#layout .header {
+		font-family: 'San Francisco Display', Roboto, 'Droid Sans', 'Helvetica Neue', 'Liberation Sans', 'Nimbus Sans L', FreeSans, sans-serif;
+	}
+
+
+	h1, h2, h3, h4, h5, h6 {
+			font-weight: bold;
+			color: rgb(75, 75, 75);
+	}
+	h3 {
+			font-size: 1.25em;
+	}
+	h4 {
+			font-size: 1.125em;
+	}
+
+	a {
+			color: #3b8bba; /* block-background-text-normal */
+			text-decoration: none;
+	}
+
+	a:visited {
+			color: #265778; /* block-normal-text-normal */
+	}
+
+	#layout {
+			left: 0;
+	}
+
+	ul {
+			padding: 0;
+			list-style-type: none;
+	}
+
+	li {
+			padding-bottom: 5px;
+	}
+
+	.offset-1-5 {
+			margin-left: 10%;
+	}
+
+	.header {
+			min-height: 80px;
+			margin: 0;
+			color: #333;
+			padding: 1em 2em;
+			text-align: center;
+			border-bottom: 1px solid #eee;
+			background: #fff;
+	}
+	.header h1 {
+			margin: 0.2em 0;
+			font-size: 3em;
+			font-weight: 300;
+	}
+
+	.header h1 span {
+			font-weight: 100;
+	}
+
+	.header h2 {
+			font-weight: 300;
+			margin: 0;
+			color: #ccc;
+	}
+
+	.content {
+			margin: 0 auto;
+			padding: 0 2em;
+			max-width: 800px;
+			margin-top: 20px;
+			margin-bottom: 50px;
+	}
+
+	@media (max-width: 870px) {
+			#layout {
+					position: relative;
+					padding-left: 0;
+			}
+	}
+
+	@media (max-width: 767px) {
+
+			.header,
+			.content {
+					font-size: 100% /*87.5%;*/
+			}
+
+			.header,
+			.content {
+					padding-left: 1.1429em;
+					padding-right: 1.1429em;
+			}
+
+			.offset-1-5 {
+					margin-left: 0;
+			}
+	}
+	</style>
 	<!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'> -->
 
 	<!--[if lt IE 9]>
