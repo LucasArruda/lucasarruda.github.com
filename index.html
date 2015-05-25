@@ -172,7 +172,11 @@
 	</script>
 
 	<script text="text/javascript">
-		if(typeof window.orientation === 'undefined'){
+		var dontHaveOrientation = (typeof window.orientation === 'undefined'),
+				dontHaveMobileString = (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)),
+				shouldILoadFonts = (dontHaveMobileString && dontHaveOrientation);
+
+		if(shouldILoadFonts){
 			var ss = document.createElement("link");
 			ss.type = "text/css";
 			ss.rel = "stylesheet";
