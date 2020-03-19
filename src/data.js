@@ -35,8 +35,8 @@ module.exports = {
       jobdesc: [
         'Development of an internal platform that supports students, staff and program applicants',
         'MakeSchool\'s Website',
-        'Building and maitaining multiple internal tools',
-        'Planning, building and handling architecure, distribution and servers',
+        'Building and maintaining multiple internal tools',
+        'Planning our architecture and handling distribution and servers',
         'Using Ruby on Rails + GraphQL API on the Backend, React, Relay (& Apollo), GraphQL Frontend.'
       ],
     },
@@ -65,7 +65,7 @@ module.exports = {
     period: 'JUN 2016 - NOV 2016',
       jobdesc: [
         'Full-stack development with Ruby on Rails, GraphQL, CoffeeScript, Slim',
-        'Creating a Event Management System for Events and Venues from scratch',
+        'Creating an Event Management System for Events and Venues from scratch',
         'Integrating with Facebook, payment gateways'
       ],
     },
@@ -75,7 +75,7 @@ module.exports = {
       title: 'Senior Software Engineer',
       period: 'JUN 2015 - JUN 2016',
       jobdesc: [
-        'Full-stack Ruby on Rails development of a online ticket platform and a CRM for NPOs',
+        'Full-stack Ruby on Rails development of an online ticket platform and a CRM for NPOs',
         'Integrating with payment gateways and generating reports and graphs',
         'Using Ruby on Rails, React, Flux, jQuery, HTML, CSS, '
       ],
@@ -83,11 +83,11 @@ module.exports = {
     {
       company: 'ThoughtWorks',
       location: 'Porto Alegre, Brazil',
-      title: 'Senior Consultant Develiper',
+      title: 'Senior Consultant Developer',
       period: 'NOV 2014 - JUN 2015',
       jobdesc: [
-        'Working on internal project using Node.JS (full stack)',
-        'Building, adding features and bug fixes to a Kanban Board used internally'
+        'Working on an internal project using Node.JS (full stack)',
+        'Building and adding features, and bug fixes to a Kanban Board used internally'
       ],
     },
     {
@@ -98,9 +98,9 @@ module.exports = {
       jobdesc: [
         'Developing using Java on the Backend',
         'Frontend work using HTML, CSS and building Javascript components.',
-        'Developing internal time tracking tool in Ruby on Rails.',
+        'Developing an internal time tracking tool in Ruby on Rails.',
         'Worked for Macys and Bloomingdales',
-        'Responsible for the desyndication of CHANEL website on Bloomingdales'
+        'Responsible for the de-syndication of CHANEL website on Bloomingdales'
       ],
     },
     {
@@ -109,9 +109,9 @@ module.exports = {
       title: 'Software Developer',
       period: 'OCT 2010 - AUG 2011',
       jobdesc: [
-        'Development and maintenance of a Geolocation web plataform, used by local telecoms and by the police',
-        'Sole responsible for a telemetry plataform that generated live data and Jasper reports',
-        'Worked on diverse integrations with some of the telemetry platafoms we built and supported'
+        'Development and maintenance of a Geolocation web platform, used by local telecoms and by the police',
+        'Sole responsible for a telemetry platform that generated live data and Jasper reports',
+        'Worked on diverse integrations with some of the telemetry platforms we built and supported'
       ],
     },
     {
@@ -122,9 +122,9 @@ module.exports = {
       jobdesc: [
         'Development of a remote measurement system responsible for collecting, gathering and treating meter energy data',
         'Lead a team that was responsible for making sure all of our software met standards and current legislation related to energy data',
-        'Created BI reports, fraud detection system and remote control of energy of consumers',
-        'Completely rebuilt our software so it had all desired functionality and met government stardards',
-        'We were able to secure all govern contracts during the period I worked there, mainly work with government agencies'
+        'Created BI reports, fraud detection system and remote control of the energy of consumers',
+        'Completely rebuilt our software so it had all desired functionality and met government standards',
+        'We were able to secure all government contracts during the period I worked there, mainly work with government agencies'
       ],
     },
     {
@@ -139,11 +139,11 @@ module.exports = {
     {
       company: 'Dept. of Masters in Education for PUC-MG',
       location: 'Belo Horizonte, Brazil',
-      title: 'Technology Reseacher',
+      title: 'Technology Researcher',
       period: 'OCT 2005 - FEB 2008',
       jobdesc: [
         'Researching and developing educational software and plugins for Moodle',
-        'Wrote a paper related to my work with online platforms and about our experience teaching Master students with the help of a PhD Professor'
+        'Wrote a paper related to my work with online platforms and about our experience teaching Master students with the help of a Ph.D. Professor'
       ],
     },
     {
