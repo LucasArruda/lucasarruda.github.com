@@ -41,6 +41,15 @@ module.exports = {
       ],
     },
     {
+      company: 'ACAD Consultancy',
+      location: 'Remote',
+      title: 'Senior Consultant Engineer',
+      period: 'DEC 2016 - JAN 2017',
+      jobdesc: [
+        'Software projects and consultancy',
+      ],
+    },
+    {
       company: 'Pathable',
       location: 'Remote',
       title: 'Senior Consultant Engineer',
@@ -95,16 +104,58 @@ module.exports = {
       ],
     },
     {
-      company: 'Avenue Code',
+      company: 'Digicade Tecnologia',
       location: 'Belo Horizonte, Brazil',
       title: 'Software Developer',
-      period: 'AUG 2011 - NOV 2014',
+      period: 'OCT 2010 - AUG 2011',
       jobdesc: [
-        'Developing using Java on the Backend',
-        'Frontend work using HTML, CSS and building Javascript components.',
-        'Developing internal time tracking tool in Ruby on Rails.',
-        'Worked for Macys and Bloomingdales',
-        'Responsible for the desyndication of CHANEL website on Bloomingdales'
+        'Development and maintenance of a Geolocation web plataform, used by local telecoms and by the police',
+        'Sole responsible for a telemetry plataform that generated live data and Jasper reports',
+        'Worked on diverse integrations with some of the telemetry platafoms we built and supported'
+      ],
+    },
+    {
+      company: 'Senergy Sistemas (Siemens)',
+      location: 'Belo Horizonte, Brazil',
+      title: 'Software Developer',
+      period: 'APR 2009 - OCT 2010',
+      jobdesc: [
+        'Development of a remote measurement system responsible for collecting, gathering and treating meter energy data',
+        'Lead a team that was responsible for making sure all of our software met standards and current legislation related to energy data',
+        'Created BI reports, fraud detection system and remote control of energy of consumers',
+        'Completely rebuilt our software so it had all desired functionality and met government stardards',
+        'We were able to secure all govern contracts during the period I worked there, mainly work with government agencies'
+      ],
+    },
+    {
+      company: 'Senergy Sistemas (Siemens)',
+      location: 'Belo Horizonte, Brazil',
+      title: 'Software Developer (Intern)',
+      period: 'MAR 2008 - AUG 2008',
+      jobdesc: [
+        'Development of a remote measurement system responsible for collecting, gathering and treating meter energy data',
+      ],
+    },
+    {
+      company: 'Dept. of Masters in Education for PUC-MG',
+      location: 'Belo Horizonte, Brazil',
+      title: 'Technology Reseacher',
+      period: 'OCT 2005 - FEB 2008',
+      jobdesc: [
+        'Researching and developing educational software and plugins for Moodle',
+        'Wrote a paper related to my work with online platforms and about our experience teaching Master students with the help of a PhD Professor'
+      ],
+    },
+    {
+      company: 'Lab. of Informatic Projects of PUC-MG',
+      location: 'Belo Horizonte, Brazil',
+      title: 'Infrastructure and software maintainer',
+      period: 'FEB 2005 - JUL 2005',
+      jobdesc: [
+        'Worked on infrastructure solutions for the IT Lab for the University and software maintenance',
+        'Implemented LDAP authentication of Linux machines on Windows AD domain',
+        'Deployed and tested infrastructure solutions',
+        'Maintained a CMS software for learning purposes'
       ],
     },
   ],
@@ -117,7 +168,7 @@ module.exports = {
       faculty: 'Spec. in Software Engineering'
     },
     {
-      name: 'Pontifical Catholic University of Minas Gerais',
+      name: 'Pontifical Catholic University of Minas Gerais (PUC-MG)',
       city: 'Belo Horizonte',
       degree: 'Bachelor Degree',
       period: '2004 - 2008',
@@ -140,11 +191,24 @@ module.exports = {
       company: 'ThoughtWorks',
       period: 'NOV 2014 - JAN 2015'
     },
+    {
+      title: 'Volunteer translator & local event organizer',
+      company: 'Ubuntu',
+      period: 'NOV 2005 - JAN 2008'
+    },
   ],
   skills: [
     {
       name: 'Ruby on Rails',
       progress: 90
+    },
+    {
+      name: 'GraphQL',
+      progress: 80
+    },
+    {
+      name: 'React',
+      progress: 60
     },
     {
       name: 'Java',
