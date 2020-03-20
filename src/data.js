@@ -31,13 +31,12 @@ module.exports = {
       company: 'Make School',
       location: 'Remote',
       title: 'Senior Software Engineer',
-      period: 'JAN 2017 - MAR 2020',
+      period: 'JAN 2017 - CURRENT',
       jobdesc: [
-        'Development of an internal platform that supports students, staff and program applicants',
-        'MakeSchool\'s Website',
-        'Building and maintaining multiple internal tools',
-        'Planning our architecture and handling distribution and servers',
-        'Using Ruby on Rails + GraphQL API on the Backend, React, Relay (& Apollo), GraphQL Frontend.'
+        'Development of an internal platform supporting students, staff and program applicants built with Ruby on Rails and GraphQL on the backend, React, Apollo, Relay (legacy) on the frontend',
+        'Maintenance and performance improvements of Make School website',
+        'Building and maintaining multiple internal tools and scripts that automated prospection, applications and enrollment',
+        'Planning and updating architecture through diagrams and handling distribution and servers on Heroku / AWS',
       ],
     },
     {
@@ -55,7 +54,7 @@ module.exports = {
       title: 'Senior Consultant Engineer',
       period: 'DEC 2016 - JAN 2017',
       jobdesc: [
-        'Several bug fixes and adding features to a legacy event platform in Ruby on Rails',
+        'Several bug fixes and added features to a legacy event platform in Ruby on Rails',
       ],
     },
     {
@@ -65,8 +64,8 @@ module.exports = {
     period: 'JUN 2016 - NOV 2016',
       jobdesc: [
         'Full-stack development with Ruby on Rails, GraphQL, CoffeeScript, Slim',
-        'Creating an Event Management System for Events and Venues from scratch',
-        'Integrating with Facebook, payment gateways'
+        'Created an Event Management System for Events and Venues from scratch',
+        'Added integrations with Facebook and payment gateways'
       ],
     },
     {
@@ -76,8 +75,8 @@ module.exports = {
       period: 'JUN 2015 - JUN 2016',
       jobdesc: [
         'Full-stack Ruby on Rails development of an online ticket platform and a CRM for NPOs',
-        'Integrating with payment gateways and generating reports and graphs',
-        'Using Ruby on Rails, React, Flux, jQuery, HTML, CSS, '
+        'Ingrated with payment gateways and generated reports and graphs',
+        'Used Ruby on Rails, React, Flux, jQuery, HTML, CSS, '
       ],
     },
     {
@@ -86,8 +85,8 @@ module.exports = {
       title: 'Senior Consultant Developer',
       period: 'NOV 2014 - JUN 2015',
       jobdesc: [
-        'Working on an internal project using Node.JS (full stack)',
-        'Building and adding features, and bug fixes to a Kanban Board used internally'
+        'Worked on an internal project using Node.JS (full stack)',
+        'Built and added features, and done bug fixes to a Kanban Board used internally'
       ],
     },
     {
@@ -96,9 +95,9 @@ module.exports = {
       title: 'Software Developer',
       period: 'AUG 2011 - NOV 2014',
       jobdesc: [
-        'Developing using Java on the Backend',
+        'Developed using Java on the Backend',
         'Frontend work using HTML, CSS and building Javascript components.',
-        'Developing an internal time tracking tool in Ruby on Rails.',
+        'Developed an internal time tracking tool in Ruby on Rails.',
         'Worked for Macys and Bloomingdales',
         'Responsible for the de-syndication of CHANEL website on Bloomingdales'
       ],
@@ -142,7 +141,7 @@ module.exports = {
       title: 'Technology Researcher',
       period: 'OCT 2005 - FEB 2008',
       jobdesc: [
-        'Researching and developing educational software and plugins for Moodle',
+        'Researched and developed educational software and plugins for Moodle',
         'Wrote a paper related to my work with online platforms and about our experience teaching Master students with the help of a Ph.D. Professor'
       ],
     },
