@@ -167,22 +167,6 @@
                         </div>
                     </div>
 
-                    <div class="projects">
-                        <div class="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
-
-                        <% content.projects.forEach(function(proj){ %>
-                            <div class="item">
-                                <div class="is-size-5">
-                                    <b><%= proj.title %></b>
-                                     —
-                                    <i><%= proj.company %></i>
-                                </div>
-                                <div class="is-size-7"><%= proj.period %></div>
-                            </div>
-                        <% }); %>
-
-                    </div>
-
                     <div class="skills">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">SKILLS</div>
                         <div class="wrapper">
@@ -194,13 +178,29 @@
                             <% }); %>
                         </div>
                     </div>
+
                     <div class="languages">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">LANGUAGES</div>
                         <div class="wrapper">
-                            <% content.languages.forEach(function(lang){ %>
+                          Portuguse, English, Spanish
+                            <!-- <% content.languages.forEach(function(lang){ %>
                                 <%= lang %>,
-                            <% }); %>
+                            <% }); %> -->
                         </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
+                        <% content.projects.forEach(function(proj){ %>
+                            <div class="item">
+                                <div class="is-size-5">
+                                    <b><%= proj.title %></b>
+                                     —
+                                    <i><%= proj.company %></i>
+                                </div>
+                                <div class="is-size-7"><%= proj.period %></div>
+                            </div>
+                        <% }); %>
                     </div>
                 </div>
             </div>
