@@ -25,7 +25,10 @@ module.exports = {
   I have always been a curious person, one that is not satisfied until I discover how things work. I do that by breaking things (problems) into smaller things (parts of the problem) until I get a good picture of the whole situation. And then I tackle problems and I strive to solve them in an efficient and user-friendly way. I try to build simple, clean and effective solutions, rather than making complex and fragile solutions.<br/>
   I also have a business mindset and I focus on making your users happy and you profit more. User satisfaction is important and so it is that a business is profitable and healthy. And those are aspects that are my focus.
   `,
-  summary: `A full-stack Senior Software Engineer with more than 10 years of experience.<br/>I have been work with Ruby on Rails for the last 5 years and been programming in general for more than 10 (mostly using Java, PHP and Javascript). My focus is to write software that is usable, tested and testable, high quality and that is useful.<br/>I have worked with different industries: e-commerce, educational, telemetry & geospatial processing, event management and of diverse sizes, from startups to Macys and Bloomingdales.<br/>I have a passion for what I do and take pride in it. I work hard to leave everything better than when I found it.`,
+  summary: `Full-stack Senior Software Engineer with more than 10 years of experience.<br/>
+I have been working as a programmer for the past 10 years (including Java, PHP and Javascript) and concentrated on Ruby on Rails for the past 5 years. My focus is to write software that is usable, tested and testable, of high quality and useful.<br/><br/>
+I have worked across different industries: e-commerce, educational, telemetry & geospatial processing, event management and for companies of diverse sizes, from startups to large retailers like Macy's and Bloomingdales.<br/><br/>
+I have a passion for what I do and take great pride in it. I work hard to leave everything better than when I found it.`,
   experiences: [
     {
       company: 'Make School',
