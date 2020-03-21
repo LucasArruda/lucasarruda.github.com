@@ -179,6 +179,22 @@
                         </div>
                     </div>
 
+                    <div class="testimonials">
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">REFERENCES</div>
+                        <div class="wrapper">
+                          <% content.references.forEach(function(ref){ %>
+                              <div class="item">
+                                  <div class="is-size-5">
+                                      <b><%= ref.name %></b>
+                                       —
+                                      <i><%= ref.company %></i>
+                                  </div>
+                                  <div class="is-size-7">&ldquo;<i><%= ref.text %></i>&rdquo;</div>
+                              </div>
+                          <% }); %>
+                        </div>
+                    </div>
+
                     <div class="languages">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">LANGUAGES</div>
                         <div class="wrapper">

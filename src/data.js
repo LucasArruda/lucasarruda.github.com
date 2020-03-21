@@ -236,5 +236,39 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
     'Portuguse',
     'English',
     'Spanish'
+  ],
+  references: [
+    {
+      name: 'Siebe Jan',
+      company: 'Senior Backend Engineer at Make School',
+      text: "At Make School, I had the pleasure to work with Lucas for a year now. Inside the team, he has been a major asset on many projects and contributed to the overall success of the team. Lucas is hard-working, has a wealth of experience, seeks to always improve and learn, and holds his work to a high standard. In addition to his technical talents, his positive, we're-in-this-together mindset, flexibility, and willingness to help out wherever necessary are a real asset"
+    },
+    {
+      name: 'Royce Brooks',
+      company: 'Senior Frontend Engineer Make School',
+      text: "Lucas played an instrumental role in my career by ramping me up in Ruby on Rails. Lucas' work was always a pleasure to review and learn from thanks to his commitment to write clean, easy to read and testable code. His extensive knowledge and willingness to lend a helping hand made working with him fun and rewarding."
+    },
+    {
+      name: 'Samuel Brandão',
+      company: 'Cofounder and Developer at Lets Events',
+      text: "Lucas is a prolific and problem-solving oriented developer. Focused on getting things done, he is able to provide both elegant code and smart solutions, balancing the scales between performance and maintainability. An excellent communicator, he is always able to keep calm and think pragmatically."
+    },
+    {
+      name: 'Tiago Romero Garcia',
+      company: 'IT Director at Avenue Code',
+      text: `Lucas is a great and fairly-judged developer. He is clever, faithful and always striving for the best approach, balancing out his front-end and back-end skills. He is also engaged in performing a great team work.
+
+ I really appreciated having the opportunity of working with Lucas and I definitely recommend his work to every employer or project.`
+    },
+    {
+      name: 'Alexandre Queiroz',
+      company: 'IT Manager at Avenue Code',
+      text: "Lucas is a great professional which I was luck enough to work with in the same company. We had few interactions within projects, but awesome interactions within the company and working for the same client. I could notice Lucas as very resourceful helping colleagues on solving small issues and perfectionist on creating solutions for problems. In a project we worked together, I could notice the persuasive capacity of Lucas on showing the best solution to tackle the problem we were facing as well as most adequate technology to be used."
+    },
+    {
+      name: 'Luiz Temponi',
+      company: 'Software Developer at Senergy (Siemens)',
+      text: "I had the pleasure of working with Lucas Arruda at Senergy. He has consistently demonstrated a strong work ethic and a dedication to sucess! He worked actively to resolve customer/partner issues in a timely manner. Lucas is creative and an excellent multitasker."
+    },
   ]
 }
