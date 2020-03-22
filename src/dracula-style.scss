@@ -1,9 +1,9 @@
 $theme: #bd93f9;
 $grey: #b5b5b5;
 
-@import "~bulma-dracula/src/bulma-dracula.scss";
+@import '~bulma-dracula/src/bulma-dracula';
 
-/* latin */
+// latin
 @font-face {
   font-family: 'Raleway';
   font-display: swap;
@@ -21,70 +21,85 @@ body {
   height: 10px;
 }
 
-.hr{
+.hr {
   border-bottom: 10px solid $theme;
   margin: 0 1.5rem;
 }
 
-.section{
+.section {
   padding: 3rem 1.5rem 1rem;
 }
 
-.summary, .experience, .education, .projects, .skills, .awards, .languages, .testimonials{
+.summary,
+.experience,
+.education,
+.projects,
+.skills,
+.awards,
+.languages,
+.testimonials {
   margin-bottom: 1.5rem;
 
-  .title{
-    padding: .5em 0;
+  .title {
     border-bottom: 1px solid $theme;
+    padding: .5em 0;
   }
 }
 
-.experience, .education, .projects, .skills, .awards, .testimonials{
-  .item{
+.experience,
+.education,
+.projects,
+.skills,
+.awards,
+.testimonials {
+  .item {
     padding: .5em 0;
   }
 }
 
 .profile {
-  .image{
+  .image {
     margin: 0 auto;
   }
-  svg{
+
+  svg {
     fill: $grey;
   }
 }
 
-.social-icon{
+.social-icon {
+  align-items: center;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 
-  a{
-    display: flex;
+  a {
     align-items: center;
+    display: flex;
   }
 
-  svg{
+  svg {
     height: 2rem;
     width: 2rem;
   }
 }
 
-.footer{
+.footer {
   padding: 3rem 1.5rem 1rem;
 }
 
-/* Query for mobile only*/
+// Query for mobile only
 @media screen and (max-width: 768px){
   .profile {
     text-align: center;
   }
+
   .socials {
-    margin: 0.25rem 0;
+    margin: .25rem 0;
   }
-  .social-icon{
+
+  .social-icon {
     justify-content: center;
-    padding: 0.25rem 0;
+    padding: .25rem 0;
 
     a {
       font-size: 1.25rem;
@@ -97,7 +112,7 @@ body {
   }
 }
 
-/* Query for desktop only*/
+// Query for desktop only
 @media screen and (min-width: 1023px){
   .has-text-right-in-desktop {
     text-align: right;

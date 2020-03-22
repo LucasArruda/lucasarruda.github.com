@@ -2,15 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Lucas Arruda]]></title>
-  <!--<link href="http://LucasArruda.github.com/atom.xml" rel="self"/>-->
-  <link href="http://LucasArruda.github.com/"/>
-  <updated>2013-06-23T19:55:00-03:00</updated>
-  <id>http://LucasArruda.github.com/</id>
+  <!--<link href="https://lucasarruda.com/atom.xml" rel="self"/>-->
+  <link href="https://lucasarruda.com/"/>
+  <updated>2020-03-22T11:02:03-03:00</updated>
+  <id>https://lucasarruda.com/</id>
   <author>
     <name><![CDATA[Lucas Arruda]]></name>
-    
-  </author>
-  <generator uri="http://lucasarruda.com/">Luucas Arruda</generator>
 
-  
+  </author>
+  <generator uri="http://lucasarruda.com/">Lucas Arruda</generator>
+
 </feed>
