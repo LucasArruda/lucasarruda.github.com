@@ -52,6 +52,7 @@
     "html2canvas": "^1.0.0-rc.1",
     "jspdf": "^1.5.3",
     "purgecss-webpack-plugin": "^1.5.0",
+    "set-value": "2.0.1",
     "terser-webpack-plugin": "^2.0.0"
   }
 }
