@@ -24,6 +24,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <style>
+        body {
+          font-display: swap;
+        }
+
         .github-corner:hover .octo-arm {
             animation: octocat-wave 560ms ease-in-out
         }
@@ -198,7 +202,8 @@
                     <div class="languages">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">LANGUAGES</div>
                         <div class="wrapper">
-                          Portuguse, English, Spanish
+                          <!-- Portuguse, English, Spanish -->
+                          <%= content.languages.join(', ') %>
                             <!-- <% content.languages.forEach(function(lang){ %>
                                 <%= lang %>,
                             <% }); %> -->
