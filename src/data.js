@@ -1,4 +1,8 @@
 module.exports = {
+  meta: {
+    title: 'Lucas Brito Arruda Resume',
+    description: 'Lucas Brito Arruda Resume - Senior Software Engineer'
+  },
   profile: {
     name: 'Lucas Arruda',
     title: 'Senior Software Engineer',
