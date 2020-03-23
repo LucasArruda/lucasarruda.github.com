@@ -11,16 +11,29 @@
     <meta name="author" content="Lucas Brito Arruda" />
     <title><%= content.meta.title %> - Software Engineer</title>
     <meta name="description" content="<%= content.meta.description %>">
+    <meta name="keywords" content="<%= content.meta.keywords %>"/>
+    <meta name="subject" content="<%= content.meta.title %>">
+    <meta name="url" content="<%= content.meta.url %>">
+    <meta name="language" content="EN">
 
     <meta property="og:title" content="<%= content.meta.title %>">
     <meta property="og:description" content="<%= content.meta.description %>">
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Lucas Brito Arruda Resume"/>
+    <meta property="og:image" content="<%= content.meta.image %>" />
+    <meta property="og:url" content="<%= content.meta.url %>"/>
 
-    <meta name="twitter:title" content="<%= content.meta.title %>">
-    <meta name="twitter:description" content="<%= content.meta.description %>">
+    <meta name="twitter:title" content="<%= content.meta.description %>">
+    <meta name="twitter:description" content="<%= content.pitch_first %>">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="<%= content.meta.url %>" />
+    <meta name="twitter:image" content="<%= content.meta.image %>">
+    <meta name="twitter:image:alt" content="<%= content.meta.description %>">
+    <meta name="twitter:creator" content="<%= content.social.twitter.name %>">
 
-    <link rel="canonical" href="https://lucasarruda.com" />
+    <link rel="canonical" href="<%= content.meta.url %>" />
 
-    <link rel="icon" type="image/png" sizes="16x16" href="https://lucasarruda.com/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= content.meta.favicon %>">
     <meta name="theme-color" content="#bd93f9">
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Raleway">

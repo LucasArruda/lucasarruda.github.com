@@ -1,7 +1,11 @@
 module.exports = {
   meta: {
     title: 'Lucas Brito Arruda Resume',
-    description: 'Lucas Brito Arruda Resume - Senior Software Engineer'
+    description: 'Lucas Brito Arruda Resume - Senior Software Engineer',
+    tags: 'Lucas, Brito, Arruda, Resume, Senior, Software, Engineer, Developer, Hire, Project, Projects',
+    image: 'https://avatars2.githubusercontent.com/u/88818?s=300&v=4',
+    url: 'https://lucasarruda.com',
+    favicon: 'https://lucasarruda.com/favicon.png'
   },
   profile: {
     name: 'Lucas Arruda',
