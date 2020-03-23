@@ -243,6 +243,11 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
   ],
   references: [
     {
+      name: 'Sean Lawrence',
+      company: 'Full stack Engineer at Make School',
+      text: "I have nothing but amazing things to say about Lucas. From advice on how to make a function simpler to read, to helping debug extremely complex bugs that I would have never found on my own, I've always been able to count on Lucas to help. He's not just a great engineer, but a fun, engaging person that shows a lot of empathy when he speaks to you."
+    },
+    {
       name: 'Siebe Jan',
       company: 'Senior Backend Engineer at Make School',
       text: "At Make School, I had the pleasure to work with Lucas for a year now. Inside the team, he has been a major asset on many projects and contributed to the overall success of the team. Lucas is hard-working, has a wealth of experience, seeks to always improve and learn, and holds his work to a high standard. In addition to his technical talents, his positive, we're-in-this-together mindset, flexibility, and willingness to help out wherever necessary are a real asset"
