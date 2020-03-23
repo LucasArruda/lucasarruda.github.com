@@ -30,8 +30,8 @@ module.exports = {
   <br/>Your customers and your profit are my top priority, so I deliver easy to use, intuitive, performant software, always focusing on the features that bring more value to your users and thus to you.
   <br/><br/>You can count on me to be an asset to your business and a problem solver. I have always been a curious person, not satisfied until I discover how things work and how to improve them. I do that by breaking problems into smaller issues until I get a good picture of the entire situation. And then I tackle them one by one to solve them in an efficient and user-friendly way. I build simple, clean and effective solutions that have longevity and are easy to maintain.
   <br/><br/>You can rely on my self-management skills. I have been working remotely full-time for over 5 years. I am autonomous, communicative and proactive in reaching out and interacting with the team, yet capable of deeply focusing on my work and delivering within deadlines.`,
-  summary: `Full-stack Senior Software Engineer with more than 10 years of experience.<br/><br/>
-I have been working as a programmer for the past 10 years (including Java, PHP and Javascript) and concentrated on Ruby on Rails for the past 5 years. My focus is to write software that is usable, tested and testable, of high quality and useful.<br/><br/>
+  summary: `Full-stack Senior Software Engineer with over 10 years of experience.<br/><br/>
+I have been working as a programmer for the past 10 years (including Java, PHP and Javascript). For the past 5 years, I have concentrated on Ruby on Rails and GraphQL. My focus is to write software that is usable, tested and testable, of high quality and useful.<br/><br/>
 I have worked across different industries: e-commerce, educational, telemetry & geospatial processing, event management and for companies of diverse sizes, from startups to large retailers like Macy's and Bloomingdales.<br/><br/>
 I have a passion for what I do and take great pride in it. I work hard to leave everything better than when I found it.`,
   experiences: [
@@ -62,7 +62,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       title: 'Senior Consultant Engineer',
       period: 'DEC 2016 - JAN 2017',
       jobdesc: [
-        'Several bug fixes and added features to a legacy event platform in Ruby on Rails',
+        'Added features and several bug fixes to a legacy event platform in Ruby on Rails',
       ],
     },
     {
@@ -72,7 +72,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
     period: 'JUN 2016 - NOV 2016',
       jobdesc: [
         'Full-stack development with Ruby on Rails, GraphQL, CoffeeScript, Slim',
-        'Created an Event Management System for Events and Venues from scratch',
+        'Created an Event Management System for events and venues from scratch',
         'Added integrations with Facebook and payment gateways'
       ],
     },
@@ -83,7 +83,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       period: 'JUN 2015 - JUN 2016',
       jobdesc: [
         'Full-stack Ruby on Rails development of an online ticket platform and a CRM for NPOs',
-        'Ingrated with payment gateways and generated reports and graphs',
+        'Integrated payment gateways and generated reports and graphs',
         'Used Ruby on Rails, React, Flux, jQuery, HTML, CSS, '
       ],
     },
@@ -93,8 +93,8 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       title: 'Senior Consultant Developer',
       period: 'NOV 2014 - JUN 2015',
       jobdesc: [
-        'Worked on an internal project using Node.JS (full stack)',
-        'Built and added features, and done bug fixes to a Kanban Board used internally'
+        'Worked on an internal-facing project using Node.JS (full stack)',
+        'Implemented features and bug fixes on a Kanban Board that was used internally'
       ],
     },
     {
@@ -103,11 +103,10 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       title: 'Software Developer',
       period: 'AUG 2011 - NOV 2014',
       jobdesc: [
-        'Developed using Java on the Backend',
-        'Frontend work using HTML, CSS and building Javascript components.',
-        'Developed an internal time tracking tool in Ruby on Rails.',
-        'Worked for Macys and Bloomingdales',
-        'Responsible for the de-syndication of CHANEL website on Bloomingdales'
+        'Developed using Java on the backend and HTML, CSS and Javascript components on the frontend.',
+        'Created an internal time tracking tool in Ruby on Rails.',
+        'Worked for clients like Macy\'s and Bloomingdales',
+        'Responsible for the de-syndication of the CHANEL website at Bloomingdales'
       ],
     },
     {
@@ -116,8 +115,8 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       title: 'Software Developer',
       period: 'OCT 2010 - AUG 2011',
       jobdesc: [
-        'Development and maintenance of a Geolocation web platform, used by local telecoms and by the police',
-        'Sole responsible for a telemetry platform that generated live data and Jasper reports',
+        'Development and maintenance of a geolocation web platform, used by local telecom companies and the police',
+        'Solely responsible for a telemetry platform that generated live data and Jasper reports',
         'Worked on diverse integrations with some of the telemetry platforms we built and supported'
       ],
     },
@@ -128,10 +127,9 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       period: 'APR 2009 - OCT 2010',
       jobdesc: [
         'Development of a remote measurement system responsible for collecting, gathering and treating meter energy data',
-        'Lead a team that was responsible for making sure all of our software met standards and current legislation related to energy data',
-        'Created BI reports, fraud detection system and remote control of the energy of consumers',
-        'Completely rebuilt our software so it had all desired functionality and met government standards',
-        'We were able to secure all government contracts during the period I worked there, mainly work with government agencies'
+        'Lead a team that was responsible for ensuring that all software met standards and current legislations related to energy data',
+        'Created BI reports, a fraud detection system and remote control of consumer energy',
+        'Completely rebuilt software that had all requested functionality and met government standards'
       ],
     },
     {
@@ -140,7 +138,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       title: 'Software Developer (Intern)',
       period: 'MAR 2008 - AUG 2008',
       jobdesc: [
-        'Development of a remote measurement system responsible for collecting, gathering and treating meter energy data',
+        'Development of a remote measurement system responsible for collecting, gathering and processing meter energy data',
       ],
     },
     {
@@ -150,7 +148,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       period: 'OCT 2005 - FEB 2008',
       jobdesc: [
         'Researched and developed educational software and plugins for Moodle',
-        'Wrote a paper related to my work with online platforms and about our experience teaching Master students with the help of a Ph.D. Professor'
+        'Wrote a paper related to my work with online platforms and about our experience teaching Masters students with the help of a Ph.D. professor'
       ],
     },
     {
@@ -159,8 +157,8 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       title: 'Infrastructure and software maintainer',
       period: 'FEB 2005 - JUL 2005',
       jobdesc: [
-        'Worked on infrastructure solutions for the IT Lab for the University and software maintenance',
-        'Implemented LDAP authentication of Linux machines on Windows AD domain',
+        'Worked on infrastructure solutions and software maintenance for the IT Lab of the university',
+        'Implemented LDAP authentication of Linux machines on Windows AD domains',
         'Deployed and tested infrastructure solutions',
         'Maintained a CMS software for learning purposes'
       ],
@@ -251,7 +249,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
     },
     {
       name: 'Royce Brooks',
-      company: 'Senior Frontend Engineer Make School',
+      company: 'Senior Frontend Engineer at Make School',
       text: "Lucas played an instrumental role in my career by ramping me up in Ruby on Rails. Lucas' work was always a pleasure to review and learn from thanks to his commitment to write clean, easy to read and testable code. His extensive knowledge and willingness to lend a helping hand made working with him fun and rewarding."
     },
     {
