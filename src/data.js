@@ -25,11 +25,11 @@ module.exports = {
       link: 'https://github.com/lucasarruda'
     }
   },
-  pitch: `I am an experienced software developer that cares deeply about user success and therefore business success. I have been helping businesses of diverse sectors and sizes for over 10 years.
-  <br/><br/>Your customers and your profit are my top priority, so I will make sure I will deliver easy to use, intuitive, fast software, always focusing on the features that bring more value to them and thus to you.
-  <br/><br/>You can count on me to be an asset to your business and a problem solver. I have always been a curious person, one that is not satisfied until I discover how things work. I do that by breaking things (problems) into smaller things (parts of the problem) until I get a good picture of the whole situation. And then I tackle problems and I strive to solve them in an efficient and user-friendly way. I try to build simple, clean and effective solutions, rather than making complex and fragile solutions.
-  <br/><br/>You can rely on me being self-managed. I have been working full-time remotely for more than 5 years, being autonomous, communicative and proactive, always reaching out and interacting with the team yet capable of deep focusing on work and being very productive.
-  `,
+  pitch_first: `I am an experienced software developer that cares deeply about user success and therefore your business success. I have been helping businesses of diverse industries and sizes for more than 10 years.`,
+  pitch: `
+  <br/>Your customers and your profit are my top priority, so I deliver easy to use, intuitive, performant software, always focusing on the features that bring more value to your users and thus to you.
+  <br/><br/>You can count on me to be an asset to your business and a problem solver. I have always been a curious person, not satisfied until I discover how things work and how to improve them. I do that by breaking problems into smaller issues until I get a good picture of the entire situation. And then I tackle them one by one to solve them in an efficient and user-friendly way. I build simple, clean and effective solutions that have longevity and are easy to maintain.
+  <br/><br/>You can rely on my self-management skills. I have been working remotely full-time for over 5 years. I am autonomous, communicative and proactive in reaching out and interacting with the team, yet capable of deeply focusing on my work and delivering within deadlines.`,
   summary: `Full-stack Senior Software Engineer with more than 10 years of experience.<br/><br/>
 I have been working as a programmer for the past 10 years (including Java, PHP and Javascript) and concentrated on Ruby on Rails for the past 5 years. My focus is to write software that is usable, tested and testable, of high quality and useful.<br/><br/>
 I have worked across different industries: e-commerce, educational, telemetry & geospatial processing, event management and for companies of diverse sizes, from startups to large retailers like Macy's and Bloomingdales.<br/><br/>
