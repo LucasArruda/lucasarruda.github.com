@@ -75,9 +75,9 @@
                     <h1 class="title is-size-1">
                         <%= content.profile.name %>
                     </h1>
-                    <p class="subtitle">
+                    <h2 class="subtitle">
                         <%= content.profile.title %>
-                    </p>
+                    </h2>
                 </div>
                 <div class="column is-2">
                     <figure class="image image is-128x128">
@@ -120,7 +120,9 @@
                     <div class="summary">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">HOW I CAN HELP YOU</div>
                         <div class="wrapper">
-                            <%= content.pitch %>
+                            <h3><%= content.pitch_first %></h3>
+
+                            <div><%= content.pitch %></div>
                         </div>
                     </div>
 
