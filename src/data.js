@@ -133,7 +133,8 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
         'Development of a remote measurement system responsible for collecting, gathering and treating meter energy data',
         'Lead a team that was responsible for ensuring that all software met standards and current legislations related to energy data',
         'Created BI reports, a fraud detection system and remote control of consumer energy',
-        'Completely rebuilt software that had all requested functionality and met government standards'
+        'Completely rebuilt software that had all requested functionality and met government standards',
+        'Secured all government contracts, beating other competitors, through quality software produced within deadlines during my time on the team'
       ],
     },
     {
@@ -192,7 +193,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       period: 'OCT 2016 - NOV 2016'
     },
     {
-      title: 'Datagoal - DataMining & Polls',
+      title: 'Datagoal - Data Mining & Polls',
       company: 'Datagoal',
       url: 'https://www.datagoal.com.br/',
       period: 'JUN 2016 - NOV 2016'
