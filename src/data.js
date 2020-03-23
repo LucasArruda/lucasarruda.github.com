@@ -174,7 +174,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       city: 'Belo Horizonte',
       degree: 'Specialist - Post Grad',
       period: '2010 - 2011',
-      faculty: 'Spec. in Software Engineering'
+      faculty: 'Specialist in Software Engineering'
     },
     {
       name: 'Pontifical Catholic University of Minas Gerais (PUC-MG)',
@@ -188,21 +188,25 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
     {
       title: 'PokerLAB - Poker Academy',
       company: 'Grupo VFX',
+      url: 'https://pokerlab.com.br',
       period: 'OCT 2016 - NOV 2016'
     },
     {
       title: 'Datagoal - DataMining & Polls',
       company: 'Datagoal',
+      url: 'https://www.datagoal.com.br/',
       period: 'JUN 2016 - NOV 2016'
     },
     {
       title: 'Tablero - KANBAN board',
       company: 'ThoughtWorks',
+      url: 'https://twtablero.github.io',
       period: 'NOV 2014 - JAN 2015'
     },
     {
       title: 'Volunteer translator & local event organizer',
       company: 'Ubuntu',
+      url: 'https://launchpad.net/~lucasarruda',
       period: 'NOV 2005 - JAN 2008'
     },
   ],
@@ -241,7 +245,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
     }
   ],
   languages: [
-    'Portuguse',
+    'Portuguese',
     'English',
     'Spanish'
   ],

@@ -233,9 +233,11 @@
                         <% content.projects.forEach(function(proj){ %>
                             <div class="item">
                                 <div class="is-size-5">
+                                  <a href="<%= proj.url %>">
                                     <b><%= proj.title %></b>
                                      —
                                     <i><%= proj.company %></i>
+                                  </a>
                                 </div>
                                 <div class="is-size-7"><%= proj.period %></div>
                             </div>
