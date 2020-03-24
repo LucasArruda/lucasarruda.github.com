@@ -252,6 +252,11 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
   ],
   references: [
     {
+      name: 'Alena Dagneau',
+      company: 'Head of Engineering at Make School',
+      text: "Lucas is a highly dependable employee and a hard worker with solid problem solving and technical skills. I was always impressed by Lucas’ ability to complete the work assigned to him on time. Lucas takes his work very seriously and regularly updated the team on the newest developments in programming, sharing his knowledge and mentoring junior engineers. He is very dedicated to keeping a clean codebase and implemented many automated practices across the team to keep the code relevant and facilitate development. Lucas was always able to figure out a solution within our business requirements, making him a highly valuable team member. His kind manner makes him a joy to work with!"
+    },
+    {
       name: 'Sean Lawrence',
       company: 'Full stack Engineer at Make School',
       text: "I have nothing but amazing things to say about Lucas. From advice on how to make a function simpler to read, to helping debug extremely complex bugs that I would have never found on my own, I've always been able to count on Lucas to help. He's not just a great engineer, but a fun, engaging person that shows a lot of empathy when he speaks to you."
