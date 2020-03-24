@@ -8,54 +8,70 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=7">
 
     <meta name="language" content="en-EN" />
-    <meta name="author" content="Irfan Maulana" />
-    <title>Bulma Resume Template</title>
-    <meta name="description" content="Free Resume/CV Page Template with Bulma CSS by Irfan Maulana">
+    <meta name="author" content="Lucas Brito Arruda" />
+    <title><%= content.meta.title %> - Software Engineer</title>
+    <meta name="description" content="<%= content.meta.description %>">
+    <meta name="keywords" content="<%= content.meta.keywords %>"/>
+    <meta name="subject" content="<%= content.meta.title %>">
+    <meta name="url" content="<%= content.meta.url %>">
+    <meta name="language" content="EN">
 
-    <meta property="og:title" content="Bulma Resume Template">
-    <meta property="og:description" content="Free Resume/CV Page Template with Bulma CSS by Irfan Maulana">
+    <meta property="og:title" content="<%= content.meta.title %>">
+    <meta property="og:description" content="<%= content.meta.description %>">
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Lucas Brito Arruda Resume"/>
+    <meta property="og:image" content="<%= content.meta.image %>" />
+    <meta property="og:url" content="<%= content.meta.url %>"/>
 
-    <meta name="twitter:title" content="Bulma Resume Template">
-    <meta name="twitter:description" content="Free Resume/CV Page Template with Bulma CSS by Irfan Maulana">
+    <meta name="twitter:title" content="<%= content.meta.description %>">
+    <meta name="twitter:description" content="<%= content.pitch_first %>">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="<%= content.meta.url %>" />
+    <meta name="twitter:image" content="<%= content.meta.image %>">
+    <meta name="twitter:image:alt" content="<%= content.meta.description %>">
+    <meta name="twitter:creator" content="<%= content.social.twitter.name %>">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="https://mazipan.github.io/favicon/favicon-16x16.png">
+    <link rel="canonical" href="<%= content.meta.url %>" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= content.meta.favicon %>">
     <meta name="theme-color" content="#00d1b2">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <!-- <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="preload" href="https://fonts.googleapis.com/css?family=Raleway" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"></noscript> -->
 
+      <style>
+          .github-corner:hover .octo-arm {
+              animation: octocat-wave 560ms ease-in-out
+          }
 
-    <style>
-        .github-corner:hover .octo-arm {
-            animation: octocat-wave 560ms ease-in-out
-        }
+          @keyframes octocat-wave {
+              0%,
+              100% {
+                  transform: rotate(0)
+              }
+              20%,
+              60% {
+                  transform: rotate(-25deg)
+              }
+              40%,
+              80% {
+                  transform: rotate(10deg)
+              }
+          }
 
-        @keyframes octocat-wave {
-            0%,
-            100% {
-                transform: rotate(0)
-            }
-            20%,
-            60% {
-                transform: rotate(-25deg)
-            }
-            40%,
-            80% {
-                transform: rotate(10deg)
-            }
-        }
-
-        @media (max-width:500px) {
-            .github-corner:hover .octo-arm {
-                animation: none
-            }
-            .github-corner .octo-arm {
-                animation: octocat-wave 560ms ease-in-out
-            }
-        }
-    </style>
-</head>
-
-<body id="body-app">
+          @media (max-width:500px) {
+              .github-corner:hover .octo-arm {
+                  animation: none
+              }
+              .github-corner .octo-arm {
+                  animation: octocat-wave 560ms ease-in-out
+              }
+          }
+      </style>
+  </head>
+  <body id="body-app">
     <a href="https://github.com/mazipan/bulma-resume-template" class="github-corner" aria-label="View source on GitHub">
         <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#00d1b2; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
             <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -72,13 +88,13 @@
                     <h1 class="title is-size-1">
                         <%= content.profile.name %>
                     </h1>
-                    <p class="subtitle">
+                    <h2 class="subtitle">
                         <%= content.profile.title %>
-                    </p>
+                    </h2>
                 </div>
                 <div class="column is-2">
                     <figure class="image image is-128x128">
-                        <img class="is-rounded" src="<%= content.profile.photo %>">
+                        <img alt="Lucas Arruda's face" class="is-rounded" src="<%= content.profile.photo %>">
                     </figure>
                 </div>
                 <div class="column has-text-grey-light has-text-right-in-desktop">
@@ -113,9 +129,11 @@
             <div class="columns">
                 <div class="column is-three-fifths">
                     <div class="summary">
-                        <div class="title is-size-5 has-text-primary has-text-weight-bold">SUMMARY</div>
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">HOW I CAN HELP YOU</div>
                         <div class="wrapper">
-                            <%= content.summary %>
+                            <h3><%= content.pitch_first %></h3>
+
+                            <div><%= content.pitch %></div>
                         </div>
                     </div>
 
@@ -162,20 +180,11 @@
 
                 </div>
                 <div class="column">
-                    <div class="projects">
-                        <div class="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
-
-                        <% content.projects.forEach(function(proj){ %>
-                            <div class="item">
-                                <div class="is-size-5">
-                                    <b><%= proj.title %></b>
-                                     —
-                                    <i><%= proj.company %></i>
-                                </div>
-                                <div class="is-size-7"><%= proj.period %></div>
-                            </div>
-                        <% }); %>
-
+                    <div class="summary">
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">SUMMARY</div>
+                        <div class="wrapper">
+                            <%= content.summary %>
+                        </div>
                     </div>
 
                     <div class="skills">
@@ -189,13 +198,48 @@
                             <% }); %>
                         </div>
                     </div>
+
+                    <div class="testimonials">
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">REFERENCES</div>
+                        <div class="wrapper">
+                          <% content.references.forEach(function(ref){ %>
+                              <div class="item">
+                                  <div class="is-size-5">
+                                      <b><%= ref.name %></b>
+                                       —
+                                      <i><%= ref.company %></i>
+                                  </div>
+                                  <div class="is-size-7">&ldquo;<i><%= ref.text %></i>&rdquo;</div>
+                              </div>
+                          <% }); %>
+                        </div>
+                    </div>
+
                     <div class="languages">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">LANGUAGES</div>
                         <div class="wrapper">
-                            <% content.languages.forEach(function(lang){ %>
+                          <!-- Portuguse, English, Spanish -->
+                          <%= content.languages.join(', ') %>
+                            <!-- <% content.languages.forEach(function(lang){ %>
                                 <%= lang %>,
-                            <% }); %>
+                            <% }); %> -->
                         </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
+                        <% content.projects.forEach(function(proj){ %>
+                            <div class="item">
+                                <div class="is-size-5">
+                                  <a href="<%= proj.url %>">
+                                    <b><%= proj.title %></b>
+                                     —
+                                    <i><%= proj.company %></i>
+                                  </a>
+                                </div>
+                                <div class="is-size-7"><%= proj.period %></div>
+                            </div>
+                        <% }); %>
                     </div>
                 </div>
             </div>
