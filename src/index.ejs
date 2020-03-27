@@ -69,6 +69,19 @@
                 animation: octocat-wave 560ms ease-in-out
             }
         }
+
+        @media print {
+          .github-corner,
+          .footer {
+            display: none;
+          }
+          .address {
+            text-align: right;
+          }
+          body {
+            font-size: 0.825rem!important;
+          }
+        }
     </style>
 </head>
 <body id="body-app">
@@ -97,7 +110,7 @@
                         <img alt="Lucas Arruda's face" class="is-rounded" src="<%= content.profile.photo %>">
                     </figure>
                 </div>
-                <div class="column has-text-grey-light has-text-right-in-desktop">
+                <div class="column has-text-grey-light has-text-right-in-desktop address">
                     <p class="has-text-weight-light">
                         <%= content.profile.city %>
                     </p>
