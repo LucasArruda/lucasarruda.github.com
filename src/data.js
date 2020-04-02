@@ -277,6 +277,11 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       text: "Lucas is a prolific and problem-solving oriented developer. Focused on getting things done, he is able to provide both elegant code and smart solutions, balancing the scales between performance and maintainability. An excellent communicator, he is always able to keep calm and think pragmatically."
     },
     {
+      name: 'Mona Desai',
+      company: 'Designer at Make School',
+      text: "Working with Lucas has been an absolute pleasure. His dedication to his craft is apparent in everything that he does. Lucas not only cares about clean code but has also shown great understanding and empathy for the users that ultimately will be using the tools that he builds. Lucas strives to find solutions that best fit the problem at hand without compromising on the end product. I know without a doubt that Lucas will add great value no matter where he works."
+    },
+    {
       name: 'Tiago Romero Garcia',
       company: 'IT Director at Avenue Code',
       text: `Lucas is a great and fairly-judged developer. He is clever, faithful and always striving for the best approach, balancing out his front-end and back-end skills. He is also engaged in performing a great team work.
