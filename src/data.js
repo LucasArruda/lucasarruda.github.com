@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
     title: 'Lucas Brito Arruda Resume',
-    description: 'Lucas Brito Arruda Resume - Senior Software Engineer',
+    description: 'Lucas Brito Arruda Resume - Senior Software Engineer with over ten years of experience with software development.',
     keywords: 'Lucas, Brito, Arruda, Resume, Senior, Software, Engineer, Developer, Hire, Project, Projects, Consultant, GraphQL, Ruby, Rails, Apollo, Ruby on Rails, Make School, Ubuntu, Thoughtworks, CV, resume, résumé, curriculum, vitae',
     image: 'https://avatars2.githubusercontent.com/u/88818?s=300&v=4',
     url: 'https://lucasarruda.com',
