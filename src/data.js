@@ -233,6 +233,14 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       progress: 70
     },
     {
+      name: 'SQL',
+      progress: 80
+    },
+    {
+      name: 'PHP',
+      progress: 80
+    },
+    {
       name: 'CSS',
       progress: 80
     },
@@ -240,14 +248,6 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       name: 'HTML',
       progress: 80
     },
-    {
-      name: 'SQL',
-      progress: 80
-    },
-    {
-      name: 'PHP',
-      progress: 80
-    }
   ],
   languages: [
     'Portuguese',
