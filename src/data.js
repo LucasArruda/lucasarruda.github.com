@@ -55,7 +55,7 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       company: 'ACAD Consultancy',
       location: 'Remote',
       title: 'Senior Consultant Engineer',
-      period: 'DEC 2016 - JAN 2017',
+      period: 'JUN 2015 - CURRENT',
       jobdesc: [
         'Software projects and consultancy',
       ],
