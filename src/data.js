@@ -281,6 +281,11 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       text: "Lucas is a prolific and problem-solving oriented developer. Focused on getting things done, he is able to provide both elegant code and smart solutions, balancing the scales between performance and maintainability. An excellent communicator, he is always able to keep calm and think pragmatically."
     },
     {
+      name: 'Jordan Arnsen',
+      company: 'Software Engineer at Make School',
+      text: "I was the lead (aka only) backend developer on the engineering team when Lucas first joined Make School and he was senior to me in total years of experience. I appreciated how Lucas and I were always able to teach and learn from each other and our different areas of expertise (his deeper background in tech and my knowledge of our codebase). Even as a fully remote team member, Lucas' strong communication skills always ensured that the team and stakeholders had clear and up to date information. When I later transitioned off of the engineering team, I knew that things were in great hands with Lucas.",
+    },
+    {
       name: 'Mona Desai',
       company: 'Designer at Make School',
       text: "Working with Lucas has been an absolute pleasure. His dedication to his craft is apparent in everything that he does. Lucas not only cares about clean code but has also shown great understanding and empathy for the users that ultimately will be using the tools that he builds. Lucas strives to find solutions that best fit the problem at hand without compromising on the end product. I know without a doubt that Lucas will add great value no matter where he works."
