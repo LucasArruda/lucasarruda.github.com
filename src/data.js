@@ -40,10 +40,21 @@ I have worked across different industries: e-commerce, educational, telemetry & 
 I have a passion for what I do and take great pride in it. I work hard to leave everything better than when I found it.`,
   experiences: [
     {
+      company: "Players' Lounge",
+      location: 'Remote',
+      title: 'Senior Software Engineer',
+      period: 'APR 2020 - CURRENT',
+      jobdesc: [
+        'Development of an online betting platform, built with a serveless mix of Next.JS and Node.JS with GraphQL on the backend, and React, Apollo, on the frontend',
+        'Maintenance and performance improvements of the website',
+        'Planning and updating architecture through diagrams and handling distribution and servers on AWS',
+      ],
+    },
+    {
       company: 'Make School',
       location: 'Remote',
       title: 'Senior Software Engineer',
-      period: 'JAN 2017 - CURRENT',
+      period: 'JAN 2017 - MAR 2020',
       jobdesc: [
         'Development of an internal platform supporting students, staff and program applicants built with Ruby on Rails and GraphQL on the backend, React, Apollo, Relay (legacy) on the frontend',
         'Maintenance and performance improvements of Make School website',
