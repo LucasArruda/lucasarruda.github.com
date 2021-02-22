@@ -40,10 +40,20 @@ I have worked across different industries: e-commerce, educational, telemetry & 
 I have a passion for what I do and take great pride in it. I work hard to leave everything better than when I found it.`,
   experiences: [
     {
+      company: "Primary Diagnostics",
+      location: 'Remote',
+      title: 'Senior Software Engineer',
+      period: 'OCT 2020 - PRESENT',
+      jobdesc: [
+        'Development of an online platform, written in Ruby on Rails with React, that facilitates and manages vaccination and testing sites and all their related data',
+        'Maintenance and performance improvements of the website',
+      ],
+    },
+    {
       company: "Players' Lounge",
       location: 'Remote',
       title: 'Senior Software Engineer',
-      period: 'APR 2020 - CURRENT',
+      period: 'APR 2020 - OCT 2020',
       jobdesc: [
         'Development of an online betting platform, built with a serveless mix of Next.JS and Node.JS with GraphQL on the backend, and React, Apollo, on the frontend',
         'Maintenance and performance improvements of the website',
