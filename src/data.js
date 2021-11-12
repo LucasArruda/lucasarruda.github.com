@@ -40,7 +40,7 @@ I have worked across different industries: e-commerce, educational, telemetry & 
 I have a passion for what I do and take great pride in it. I work hard to leave everything better than when I found it.`,
   experiences: [
     {
-      company: "Primary Diagnostics",
+      company: "Primary Health",
       location: 'Remote',
       title: 'Senior Software Engineer',
       period: 'OCT 2020 - PRESENT',
