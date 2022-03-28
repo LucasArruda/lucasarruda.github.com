@@ -29,7 +29,7 @@ module.exports = {
       link: 'https://github.com/lucasarruda'
     }
   },
-  pitch_first: `I am an experienced software developer that cares deeply about user success and, therefore, your business success. I have been helping businesses of diverse industries and sizes for more than ten years.`,
+  pitch_first: `I am an experienced software developer that cares deeply about user success and, therefore, your business success. I have been helping businesses of all sizes from diverse industries sizes for more than ten years, as well as mentoring, coaching and leading junior to senior Engineers.`,
   pitch: `
   <br/>Your customers and your profit are my top priority, so I deliver easy to use, intuitive, performant software, always focusing on the features that bring more value to your users and thus to you.
   <br/><br/>You can count on me to be an asset to your business and a problem solver. I have always been a curious person, not satisfied until I discover how things work and how to improve them. I do that by breaking problems into smaller issues until I get a good picture of the entire situation. And then, I tackle them one by one to solve them in an efficient and user-friendly way. I build simple, clean, and practical solutions that have longevity and are easy to maintain.
