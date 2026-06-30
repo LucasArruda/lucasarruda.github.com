@@ -51,6 +51,6 @@
     "bulma-dracula": "^1.0.3",
     "gh-pages": "^6.2.0",
     "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.2"
+    "jspdf": "^4.2.1"
   }
 }
