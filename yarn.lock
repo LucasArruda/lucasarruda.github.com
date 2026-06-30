@@ -763,15 +763,7 @@
     "@babel/types" "^7.4.4"
     "esutils" "^2.0.2"
 
-"@babel/runtime-corejs3@^7.9.6":
-  "integrity" "sha512-x/XYVQ1h684pp1mJwOV4CyvqZXqbc8CMsMGUnAbuc82ZCdv1U63w5RSUzgDSXQHG5Rps/kiksH6g2D5BuaKyXg=="
-  "resolved" "https://registry.npmjs.org/@babel/runtime-corejs3/-/runtime-corejs3-7.13.10.tgz"
-  "version" "7.13.10"
-  dependencies:
-    "core-js-pure" "^3.0.0"
-    "regenerator-runtime" "^0.13.4"
-
-"@babel/runtime@^7.23.2":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.23.2":
   "integrity" "sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz"
   "version" "7.29.7"
@@ -1917,16 +1909,18 @@
   "version" "1.0.30001800"
 
 "canvg@^3.0.6":
-  "integrity" "sha512-4sq6iL5Q4VOXS3PL1BapiXIZItpxYyANVzsAKpTPS5oq4u3SKbGfUcbZh2gdLCQ3jWpG/y5wRkMlBBAJhXeiZA=="
-  "resolved" "https://registry.npmjs.org/canvg/-/canvg-3.0.7.tgz"
-  "version" "3.0.7"
+  "integrity" "sha512-5ON+q7jCTgMp9cjpu4Jo6XbvfYwSB2Ow3kzHKfIyJfaCAOHLbdKPQqGKgfED/R5B+3TFFfe8pegYA+b423SRyA=="
+  "resolved" "https://registry.npmjs.org/canvg/-/canvg-3.0.11.tgz"
+  "version" "3.0.11"
   dependencies:
-    "@babel/runtime-corejs3" "^7.9.6"
+    "@babel/runtime" "^7.12.5"
     "@types/raf" "^3.4.0"
+    "core-js" "^3.8.3"
     "raf" "^3.4.1"
+    "regenerator-runtime" "^0.13.7"
     "rgbcolor" "^1.0.1"
     "stackblur-canvas" "^2.0.0"
-    "svg-pathdata" "^5.0.5"
+    "svg-pathdata" "^6.0.3"
 
 "chalk@^4.1.2":
   "integrity" "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
@@ -2110,12 +2104,7 @@
   dependencies:
     "browserslist" "^4.28.1"
 
-"core-js-pure@^3.0.0":
-  "integrity" "sha512-laz3Zx0avrw9a4QEIdmIblnVuJz8W51leY9iLThatCsFawWxC3sE4guASC78JbCin+DkwMpCdp1AVAuzL/GN7A=="
-  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.9.1.tgz"
-  "version" "3.9.1"
-
-"core-js@^3.6.0":
+"core-js@^3.6.0", "core-js@^3.8.3":
   "integrity" "sha512-gSjRvzkxQc1zjM/5paAmL4idJBFzuJoo+jDjF1tStYFMV2ERfD02HhahhCGXUyHxQRG4yFKVSdO6g62eoRMcDg=="
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.9.1.tgz"
   "version" "3.9.1"
@@ -2732,9 +2721,9 @@
   "version" "5.0.2"
 
 "follow-redirects@^1.0.0":
-  "integrity" "sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA=="
-  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.0.tgz"
-  "version" "1.13.0"
+  "integrity" "sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.16.0.tgz"
+  "version" "1.16.0"
 
 "foreground-child@^3.1.0", "foreground-child@^3.3.1":
   "integrity" "sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw=="
@@ -3257,9 +3246,9 @@
     "html2canvas" "^1.0.0-rc.5"
 
 "kind-of@^6.0.2":
-  "integrity" "sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA=="
-  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-6.0.2.tgz"
-  "version" "6.0.2"
+  "integrity" "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw=="
+  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+  "version" "6.0.3"
 
 "launch-editor@^2.6.1":
   "integrity" "sha512-QWBrQsMpH7gPr965dsKD/3cKWiNoTjpATQf++Xq63N6sKRGMwlVXz41O1IZTMfZQgBctD/K5Zt06+/I6pP6+HA=="
@@ -4165,10 +4154,10 @@
   "resolved" "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
   "version" "1.4.2"
 
-"regenerator-runtime@^0.13.4":
-  "integrity" "sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew=="
-  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz"
-  "version" "0.13.7"
+"regenerator-runtime@^0.13.7":
+  "integrity" "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg=="
+  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+  "version" "0.13.11"
 
 "regexpu-core@^6.3.1":
   "integrity" "sha512-0ghuzq67LI9bLXpOX/ISfve/Mq33a4aFRzoQYhnnok1JOFpmE/A2TBGkNVenOGEeSBCjIiWcc6MVOG5HEQv0sA=="
@@ -4642,10 +4631,10 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
-"svg-pathdata@^5.0.5":
-  "integrity" "sha512-TAAvLNSE3fEhyl/Da19JWfMAdhSXTYeviXsLSoDT1UM76ADj5ndwAPX1FKQEgB/gFMPavOy6tOqfalXKUiXrow=="
-  "resolved" "https://registry.npmjs.org/svg-pathdata/-/svg-pathdata-5.0.5.tgz"
-  "version" "5.0.5"
+"svg-pathdata@^6.0.3":
+  "integrity" "sha512-qsjeeq5YjBZ5eMdFuUa4ZosMLxgr5RZ+F+Y1OrDhuOCEInRMA3x74XdBtggJcj9kOeInz0WE+LgCPDkZFlBYJw=="
+  "resolved" "https://registry.npmjs.org/svg-pathdata/-/svg-pathdata-6.0.3.tgz"
+  "version" "6.0.3"
 
 "svgo@^4.0.1":
   "integrity" "sha512-XDpWUOPC6FEibaLzjfe0ucaV0YrOjYotGJO1WpF0Zd+n6ZGEQUsSugaoLq9QkEZtAfQIxT42UChcssDVPP3+/w=="
