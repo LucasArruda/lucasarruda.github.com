@@ -89,3 +89,12 @@ body {
     text-align: right;
   }
 }
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
