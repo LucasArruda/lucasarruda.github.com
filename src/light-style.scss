@@ -1,7 +1,7 @@
 $theme: #00d1b2;
 $grey: #b5b5b5;
 
-@import "~bulma/bulma";
+@import 'bulma/bulma';
 
 // latin
 @font-face {
@@ -30,7 +30,7 @@ body {
   padding: 3rem 1.5rem 1rem;
 }
 
-.summary, .experience, .education, .projects, .skills, .awards, .languages{
+.summary, .experience, .education, .projects, .skills, .awards, .languages, .testimonials{
   margin-bottom: 1.5rem;
 
   .title{
@@ -39,7 +39,7 @@ body {
   }
 }
 
-.experience, .education, .projects, .skills, .awards{
+.experience, .education, .projects, .skills, .awards, .testimonials{
   .item{
     padding: .5em 0;
   }
@@ -80,11 +80,11 @@ body {
   }
   .social-icon{
     justify-content: center;
+    padding: .25rem 0;
   }
 }
 
-/* Query for desktop only*/
-@media screen and (min-width: 1023px){
+@media screen and (min-width: 1023px) {
   .has-text-right-in-desktop {
     text-align: right;
   }
@@ -96,5 +96,25 @@ body {
   *::after {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+
+  body {
+    color: #363636;
+    font-size: 0.825rem !important;
+  }
+
+  .address {
+    text-align: right;
+  }
+
+  .has-text-grey-light,
+  .has-text-grey-dark,
+  .subtitle,
+  .is-size-7 {
+    color: #363636 !important;
+  }
+
+  .social-icon svg {
+    fill: #4a4a4a !important;
   }
 }
