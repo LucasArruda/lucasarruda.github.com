@@ -47,7 +47,7 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "bulma": "^1.0.3",
+    "bulma": "0.9.4",
     "bulma-dracula": "^1.0.3",
     "gh-pages": "^6.2.0",
     "html2canvas": "^1.4.1",
