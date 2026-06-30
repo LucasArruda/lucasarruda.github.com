@@ -61,9 +61,7 @@ module.exports = {
   optimization: {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
     runtimeChunk: false,
-    splitChunks: {
-      chunks: 'all'
-    }
+    splitChunks: false
   },
   resolve: {
     extensions: ['.js', '.json'],
