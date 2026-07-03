@@ -244,27 +244,27 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
       progress: 90,
     },
     {
-      name: "GraphQL",
+      name: "Python",
+      progress: 80,
+    },
+    {
+      name: "Node.js / JavaScript / TypeScript",
       progress: 80,
     },
     {
       name: "React",
-      progress: 60,
-    },
-    {
-      name: "Java",
-      progress: 80,
-    },
-    {
-      name: "Javascript",
       progress: 70,
+    },
+    {
+      name: "GraphQL",
+      progress: 80,
     },
     {
       name: "SQL",
       progress: 80,
     },
     {
-      name: "PHP",
+      name: "PHP & Java",
       progress: 80,
     },
     {
