@@ -269,11 +269,11 @@ I have a passion for what I do and take great pride in it. I work hard to leave 
     },
     {
       name: "CSS",
-      progress: 80,
+      progress: 60,
     },
     {
       name: "HTML",
-      progress: 80,
+      progress: 70,
     },
   ],
   languages: ["Portuguese", "English", "Spanish"],
