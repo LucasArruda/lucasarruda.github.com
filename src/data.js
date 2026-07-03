@@ -4,7 +4,7 @@ module.exports = {
     description:
       "Lucas Brito Arruda Resume - Lead Senior Software Engineer with over ten years of experience with software development.",
     keywords:
-      "Lucas, Brito, Arruda, Resume, Lead, Staff, Primary, Principal, Senior, Software, Engineer, Developer, Hire, Project, Projects, Consultant, GraphQL, Ruby, Rails, Apollo, Ruby on Rails, Make School, Ubuntu, Thoughtworks, CV, resume, résumé, curriculum, vitae",
+      "Lucas, Brito, Arruda, Resume, Lead, Staff, Primary, Principal, Senior, Software, Engineer, Developer, Hire, Project, Projects, Consultant, GraphQL, Ruby, Rails, Apollo, Python, Javascript, Typescript, Node.js, Next.js, Ruby on Rails, Make School, Ubuntu, Thoughtworks, CV, resume, résumé, curriculum, vitae",
     image: "https://avatars2.githubusercontent.com/u/88818?s=300&v=4",
     url: "https://lucasarruda.com",
     favicon: "https://lucasarruda.com/favicon.png",
@@ -33,12 +33,12 @@ module.exports = {
   },
   pitch_first: `I am an experienced software engineer that cares deeply about user success and, therefore, your business success. I have been helping businesses of all sizes from diverse industries sizes for more than ten years, as well as mentoring, coaching and leading junior to senior Engineers.`,
   pitch: `
-  <br/>Your customers and your profit are my top priority, so I deliver easy to use, intuitive, performant software, always focusing on the features that bring more value to your users and thus to you.
-  <br/><br/>You can count on me to be an asset to your business and a problem solver. I have always been a curious person, not satisfied until I discover how things work and how to improve them. I do that by breaking problems into smaller issues until I get a good picture of the entire situation. And then, I tackle them one by one to solve them in an efficient and user-friendly way. I build simple, clean, and practical solutions that have longevity and are easy to maintain.
-  <br/><br/>You can rely on my self-management skills. I have been working remotely full-time for over five years. I am autonomous, communicative, and proactive in reaching out and interacting with the team, yet capable of profoundly focusing on my work and delivering within deadlines.`,
+  <br/>Your customers and your profit are my top priorities. I deliver easy-to-use, intuitive, performant software, always focusing on the features that bring the most value to your users and your business.
+  <br/><br/>You can count on me as a problem solver and architect. I break problems down, design with strong data structures and system design in mind, and build simple, practical solutions that last. I embrace AI and automation heavily to eliminate toil and move faster on high-impact work.
+  <br/><br/>I have been working remotely full-time for over ten years and thrive with autonomy. I am communicative and proactive in reaching out and interacting with the team, yet capable of profoundly focusing on my work and delivering within deadlines.`,
   summary: `Full-stack Senior Software Engineer with over fifteen years of experience.<br/><br/>
-I have been working as a programmer for the past fifteen years. For the past ten, I have focused on Ruby on Rails, Python, and JavaScript/TypeScript. My focus is to write software that is usable, tested and testable, of high quality and useful.<br/><br/>
-I have worked across different industries: e-commerce, educational, telemetry & geospatial processing, event management, and with companies of diverse sizes, from startups to large retailers like Macy's and Bloomingdales.<br/><br/>
+I have been working as a programmer for the past fifteen years. For the past ten, I have focused on Ruby on Rails, Python, and JavaScript/TypeScript. I write software that is usable, well-tested, testable, high-quality, and useful.<br/><br/>
+I have worked across different industries: e-commerce, education, telemetry and geospatial processing, healthcare (health tech), and event management, with companies ranging from startups to large retailers like Macy's and Bloomingdale's.<br/><br/>
 I have a passion for what I do and take great pride in it. I work hard to leave everything better than when I found it.`,
   experiences: [
     {
